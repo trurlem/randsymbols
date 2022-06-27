@@ -16,7 +16,7 @@ class EmojiCategory(str, Enum):
     OBJECTS = "Objects"
 
 
-def get_alphabet(category: EmojiCategory) -> Iterable[bytes]:
+def get_alphabet(category: EmojiCategory) -> Iterable[str]:
     return (
         list(emojis.db.get_emoji_aliases().values())
         if category is EmojiCategory.ANY
