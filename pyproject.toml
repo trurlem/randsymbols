@@ -23,6 +23,7 @@ requires-python = ">=3.9"
 
 [project.optional-dependencies]
 dev = ["black", "bumpver", "isort", "bumpver"]
+build = ["build", "twine"]
 
 [project.urls]
 Homepage = "https://github.com/trurlem/randsymbols"
