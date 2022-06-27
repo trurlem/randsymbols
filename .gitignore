@@ -1,0 +1,5 @@
+/venv
+*.pyc
+requirements.*
+*.egg-info/
+__pycache__/
